@@ -4,15 +4,15 @@
    <extension
          point="org.eclipse.core.runtime.preferences">
       <initializer
-            class="funthomasprefs.plugin.preferences.PreferenceInitializer">
+            class="devtools.preferences.PreferenceInitializer">
       </initializer>
    </extension>
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            class="funthomasprefs.plugin.preferences.FunThomasPreferencePage"
-            id="funthomas.preferences"
-            name="FunThomas">
+            class="devtools.preferences.DevtoolsPreferencePage"
+            id="devtools.preferences"
+            name="Devtools">
       </page>
    </extension>
 

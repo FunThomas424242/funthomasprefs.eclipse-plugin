@@ -1,4 +1,4 @@
-package funthomasprefs.plugin.preferences;
+package devtools.preferences;
 
 /**
  * Constant definitions for plug-in preferences

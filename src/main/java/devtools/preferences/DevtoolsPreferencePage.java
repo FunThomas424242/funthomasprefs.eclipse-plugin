@@ -1,9 +1,10 @@
-package funthomasprefs.plugin.preferences;
+package devtools.preferences;
 
 import org.eclipse.jface.preference.*;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 import org.eclipse.ui.IWorkbench;
-import funthomasprefs.plugin.Activator;
+
+import devtools.preferences.osgi.Activator;
 
 /**
  * This class represents a preference page that
@@ -19,11 +20,11 @@ import funthomasprefs.plugin.Activator;
  * be accessed directly via the preference store.
  */
 
-public class FunThomasPreferencePage
+public class DevtoolsPreferencePage
 	extends FieldEditorPreferencePage
 	implements IWorkbenchPreferencePage {
 
-	public FunThomasPreferencePage() {
+	public DevtoolsPreferencePage() {
 		super(GRID);
 		setPreferenceStore(Activator.getDefault().getPreferenceStore());
 		setDescription("A demonstration of a preference page implementation");

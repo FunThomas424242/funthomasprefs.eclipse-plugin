@@ -1,9 +1,9 @@
-package funthomasprefs.plugin.preferences;
+package devtools.preferences;
 
 import org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer;
 import org.eclipse.jface.preference.IPreferenceStore;
 
-import funthomasprefs.plugin.Activator;
+import devtools.preferences.osgi.Activator;
 
 /**
  * Class used to initialize default preference values.

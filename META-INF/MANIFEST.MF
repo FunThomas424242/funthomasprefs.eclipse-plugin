@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: FunThomas Preferences Plugin
-Bundle-SymbolicName: funthomasprefs.plugin;singleton:=true
+Bundle-SymbolicName: devtools-preferences.plugin;singleton:=true
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: funthomasprefs.plugin.Activator
+Bundle-Activator: devtools.preferences.osgi.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
